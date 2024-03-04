@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-img{
+  background-image: url('./assets/images/login-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-part{
+  box-shadow: 0px 0px 10px #07a1ff;
+}
+.login-left-img{
+  background-image: url('./assets/images/login-left.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-area {
+  min-height: 100vh;
+  box-shadow: 1px 0px 10px #07a1ff;
+}
+.nav-area ul li{
+  height: 50px;
+  margin: 5px;
+}
+.nav-area ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  display: inline-block;
+}
+.nav-area ul li a svg{
+  color: #07a1ff;
+}
+.nav-area ul li a.active{
+  text-decoration: none;
+  background: #07a1ff;
+  color: #fff;
+}
+.nav-area ul li a.active svg{
+  color: #fff;
+}
+
+.card{    
+  box-shadow: 0px 5px 10px #b4b2b2;
+  border: none;
+}
+.card-icon {
+  padding: 30px 20px;
+  background-color: #07a1ff;
+  box-shadow: 0px 5px 10px #b4b2b2;
+}
+.card-icon.orange {
+  background-color: #d59c00;
+  box-shadow: 0px 5px 10px #5c584d;
+}
+.card-icon.green {
+  background-color: #12c112;
+  box-shadow: 0px 5px 10px #495556;
+}
+.card-icon.red {
+  background-color: #c72121;
+  box-shadow: 0px 5px 10px #684444;
+}
+.card-icon.sky {
+  background-color: #07a1ff;
+  box-shadow: 0px 5px 10px #4d5869;
+}
+.card-icon svg {
+  color: #fff;
+  font-size: 30px;
+}
+
+.nav-tabs {
+  padding-left: 1%;
+  border-bottom: 2px solid #07a1ff;
+}
+.nav-tabs .nav-item a{
+  color: #000;
+}
+.nav-tabs .nav-item a:hover{
+  border-color: #07a1ff;
+  color: #07a1ff;
+  border-bottom: none;
+}
+.nav-tabs .nav-item a.active{
+  background: #07a1ff;
+  color: #fff;
+}
